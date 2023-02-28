@@ -1,0 +1,156 @@
+
+
+
+body{
+    background: #b7d3df;
+}
+#container{
+    width:700px;
+    margin:0 auto;
+    margin-top:10%;
+}
+
+form {
+    width:100%;
+    padding: 60px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   
+}
+#container h1{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    background-color: #2f7ebe;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+body
+{
+    background-color: rgb(185, 184, 112) ;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+    text-align: center;
+    margin: auto;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+header
+{
+    background-color: rgb(185, 184, 112) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: 100px;
+    height: 90px;
+}
+nav ul
+{
+    list-style-type:none;
+    display:flex;
+    background-color:#fff;
+    padding: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+
+nav li
+{
+    margin-right: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+   
+}
+h1{
+    color: rgb(83, 141, 95);
+    margin-left: auto;
+margin-right:auto;
+width:1000px;
+text-shadow: #2f7ebe;
+}
+p{
+    color: aliceblue;
+    font-display:unset;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#car{
+    z-index: 12;
+    width: 60px;
+    position: absolute;
+    top: 86%;
+    left: 28%;  
+    transform: translate(-50%, -50%);
+    animation: bencheikh 4s linear infinite;
+}
+@keyframes bencheikh {      
+    0%{
+        left: 5% 
+    }
+    50% {
+        left: 45%;
+        top: 95%;
+    }
+    55% {
+        left: 65%;
+        transform: rotate(40deg);
+    }
+    
+    100% {
+        left: 100%;
+        
+    }
+
+
+
+}  
+
+
+
+

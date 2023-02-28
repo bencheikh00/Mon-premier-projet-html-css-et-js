@@ -1,0 +1,98 @@
+body
+
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+header
+{
+    background: url('images/separateur.png') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: 100px;
+    height: 90px;
+}
+nav ul
+{
+    list-style-type:none;
+    display:flex;
+    background-color: rgb(253, 253, 253);
+    padding: 8px;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+
+nav li
+{
+    margin-right: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+   
+}
+h1{
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+margin-right:auto;
+width:1000px;
+}
+p{
+    color: rgb(250, 250, 250);
+    font-display:unset;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#ben{
+    text-align:center;
+    margin:auto;
+    display:flex;
+    width: 1500px;
+    height:950px;
+
+}
+#cheikh{
+    text-align:center;
+    margin:auto;
+    display:flex;
+    width: 1500px;
+    height:380px;
+
+}
+#saer{
+    text-align:center;
+    margin:auto;
+    display:flex;
+    width: 1500px;
+    height:480px;
+
+}
+#senghor{
+    text-align:center;
+    margin:auto;
+    display:flex;
+    width: 1500px;
+    height:600px;
+
+}
+ 
